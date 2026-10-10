@@ -9,7 +9,7 @@ export interface TitlebarViewData {
 export function renderTitlebarView({ platform, server }: TitlebarViewData): string {
   return `<header class="titlebar" data-tauri-drag-region data-platform="${platform}">
     <div class="titlebar-brand"><span class="titlebar-mark">${icon("logo")}</span><span>Serverbox</span></div>
-    <div class="titlebar-caption"><strong>${escapeHtml(server?.name ?? "Your server room")}</strong><span>${server ? escapeHtml(server.host) : "Agentless SSH control"}</span></div>
+    <div class="titlebar-caption"><div class="titlebar-context"><strong>${escapeHtml(server?.name ?? "Your server room")}</strong><span>${server ? escapeHtml(server.host) : "Agentless SSH control"}</span><span>|</span></div><span class="titlebar-publisher">GoodApps (hello@goodapps.store)</span></div>
     <div class="window-controls" aria-label="Window controls">
       <button class="window-control window-control-minimize" data-window="minimize" title="Minimize window" aria-label="Minimize window">${icon("minus")}</button>
       <button class="window-control window-control-maximize" data-window="maximize" title="Maximize window" aria-label="Maximize window">${icon("square")}</button>
