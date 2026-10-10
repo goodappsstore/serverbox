@@ -3425,7 +3425,7 @@ dependencies = [
 
 [[package]]
 name = "serverbox"
-version = "1.0.7"
+version = "0.1.0"
 dependencies = [
  "aes-gcm",
  "argon2",
