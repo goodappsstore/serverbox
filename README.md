@@ -4,8 +4,6 @@ Serverbox is an open-source, agentless desktop control panel for Linux servers. 
 
 Built with Rust, Tauri 2, and TypeScript, Serverbox brings common administration tasks into one cross-platform desktop workspace while keeping the terminal available for everything else.
 
-[https://serverbox.stupidlabs.lol](https://serverbox.stupidlabs.lol)
-
 ## Screenshots
 
 ### Serverbox homescreen
