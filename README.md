@@ -6,7 +6,11 @@ Built with Rust, Tauri 2, and TypeScript, Serverbox brings common administration
 
 [https://serverbox.stupidlabs.lol](https://serverbox.stupidlabs.lol)
 
-![Homescreen Screenshot](homescreen.png)
+## Screenshots
+
+### Serverbox homescreen
+
+![Serverbox homescreen](screenshots/serverbox-home.png)
 
 ## What it does
 
