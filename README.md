@@ -35,13 +35,6 @@ Serverbox runs on your computer and communicates with managed machines over SSH.
 
 Secrets are encrypted locally. Serverbox asks for explicit confirmation before potentially disruptive operations such as firewall changes, account deletion, or service actions. As with any server-administration tool, review an action carefully and maintain an independent recovery path before changing remote access or critical services.
 
-## AI assistance
-
-- AI-assisted tools were used during the development of Serverbox.
-- This is not vibe-coded... it's AI-assisted. Over 100 individual sessions of `plan -> review -> review-review -> dev -> review -> review-review -> plan next -> review -> ...` chains were employed.
-- If you don't like this, please don't use it. No need to spread [hatred](https://news.ycombinator.com/item?id=49509679).
-- Bugs are expected. From humans, and AI both. Please file them under issues if you do find any.
-
 ## Install
 
 Download a build for macOS, Windows, or Linux from the repository's releases page.
@@ -99,6 +92,10 @@ Linux servers over SSH (no Serverbox agent)
 ## Contributing
 
 Issues and pull requests are welcome.
+
+## AI Assistance
+
+Heavy AI assistance used. Not vibe-coded.
 
 ## License
 
